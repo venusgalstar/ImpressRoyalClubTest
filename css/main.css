@@ -1,0 +1,214 @@
+html, body {
+    background: linear-gradient(90deg, #080813 0%, #27255B 126.92%);
+    ;
+    /* height: 100%; */
+}
+
+#root {
+    height: 100%;
+}
+
+.sider {
+    width: 265px;
+    /* height: 100%; */
+    background: #080A1C;
+    box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.sider_logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    margin: auto;
+    padding: 40px 40px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.sider_logo>.logo {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    margin-right: 10px;
+}
+
+.nav_container {
+    text-decoration: none;
+    /* margin:0px; */
+    padding: 0px;
+    margin-top: 90px;
+}
+
+.nav {
+    height: 50px;
+    color: white;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.nav_icon {
+    margin-right: 20px;
+}
+
+.nav.active, .nav:hover, .nav:active {
+    background: #055EF0;
+}
+
+.gray_bar {
+    margin-top: 160px;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(110, 110, 110, 0), rgba(110, 110, 110, 1), rgba(110, 110, 110, 0));
+}
+
+.gray_bar_vert {
+    width: 2px;
+    background-image: linear-gradient(rgba(110, 110, 110, 0), rgba(110, 110, 110, 1), rgba(110, 110, 110, 0));
+}
+
+
+
+
+.nav_social_text {
+    margin-top: 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.nav_social_icon {
+    margin-top: 20px;
+}
+
+.nav_social_icon>img+img {
+    margin-left: 15px;
+}
+
+.nav_paper_container {
+    padding-left: 40px;
+    padding-right: 40px;
+    /* width: 100%; */
+    margin-bottom: 40px;
+}
+
+.nav_paper {
+    border: 2px solid#0078E5;
+    border-radius: 8px;
+    text-align: center;
+    padding: 15px 20px;
+    color: white;
+    font-size: 14px;
+}
+
+.nav_social_container {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.home_container {
+    padding: 40px;
+    /* margin-bottom: 40px; */
+    min-width: 1000px;
+}
+
+.btn_connect {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px !important;
+    background: #055EF0;
+}
+
+.wallet {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.market_cap {
+    display: flex;
+    border-radius: 15px;
+    background: #055EF0;
+    height: 145px;
+}
+
+.market_cap>.content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.market_cap_chart {
+    width: 145px;
+}
+
+.check_nft {
+    display: flex;
+    border-radius: 15px;
+    border: 1px solid #055EF0;
+    height: 145px;
+    background: #180D55;
+    background-image: url(/img/nft.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.check_nft>.content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main_pannel {
+    background: #0D0D27;
+    border: 1.3px solid #055EF0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+.welcome_img {
+    width: 70%;
+    height: 326.2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/img/bg1.png);
+    border-radius: 13px;
+    max-width: 500px;
+}
+
+.swap_pannel {
+    background: #0D0D27;
+    border: 1.3px solid #055EF0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    /* padding: 30px; */
+    width: 467px;
+    margin-top: 40px;
+    height: 136px;
+}
+
+.swap_pannel>.content {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+}
+
+.swap_ctrl_pannel {
+    background: #0D0D27;
+    border: 1.3px solid #055EF0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 467px;
+    margin-top: 40px;
+}
