@@ -1,6 +1,10 @@
+* {
+    font-family: "SKMordernistRegular";
+}
+
 html, body {
     background: linear-gradient(90deg, #080813 0%, #27255B 126.92%);
-    ;
+    background-repeat: no-repeat;
     /* height: 100%; */
 }
 
@@ -10,11 +14,26 @@ html, body {
 
 .sider {
     width: 265px;
+    min-width: 265px;
     /* height: 100%; */
     background: #080A1C;
     box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+}
+
+.left_sider {
+    width: 265px;
+    min-width: 265px;
+    height: 100%;
+    background: #080A1C;
+    box-shadow: 0px 15px 40px -5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.btn_menu {
+    visibility: hidden;
 }
 
 .sider_logo {
@@ -84,11 +103,12 @@ html, body {
     margin-top: 20px;
 }
 
-.nav_social_icon>img+img {
+.nav_social_icon > img + img {
     margin-left: 15px;
 }
 
 .nav_paper_container {
+    margin-top: 50px;
     padding-left: 40px;
     padding-right: 40px;
     /* width: 100%; */
@@ -109,6 +129,11 @@ html, body {
     padding-right: 40px;
 }
 
+.market_cap_container {
+    display: flex;
+}
+
+
 
 .home_container {
     padding: 40px;
@@ -125,7 +150,7 @@ html, body {
 
 .wallet {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .market_cap {
@@ -173,6 +198,8 @@ html, body {
     border-radius: 15px;
     padding: 30px;
     margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .welcome_img {
@@ -183,6 +210,7 @@ html, body {
     background-image: url(/img/bg1.png);
     border-radius: 13px;
     max-width: 500px;
+    margin-left: 10px;
 }
 
 .swap_pannel {
@@ -211,4 +239,24 @@ html, body {
     border-radius: 15px;
     width: 467px;
     margin-top: 40px;
+    padding: 26px;
+}
+
+.swap_select {
+    background: rgba(5, 94, 240, 0.15);
+    border-radius: 10px;
+    /* width: 100%; */
+    /* height: 97px; */
+    padding: 30px;
+}
+
+.btn_swap {
+    width: 100%;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.tokenomic_text {
+    display: none;
 }

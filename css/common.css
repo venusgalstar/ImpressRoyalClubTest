@@ -143,6 +143,10 @@
 
 /* margin */
 
+.m-t-15 {
+    margin-top: 15px;
+}
+
 .m-t-20 {
     margin-top: 20px;
 }
@@ -203,6 +207,10 @@
 
 .m-b-10 {
     margin-bottom: 10px;
+}
+
+.m-b-15 {
+    margin-bottom: 15px;
 }
 
 .m-b-20 {
@@ -380,4 +388,8 @@
 
 .fw-700 {
     font-weight: 700;
+}
+
+.fw-800 {
+    font-weight: 800;
 }
